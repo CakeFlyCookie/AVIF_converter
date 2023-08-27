@@ -2,9 +2,11 @@
 
 simple avif converter
 
+----------------------------------------------
 
 pip install pillow pillow_avif tqdm
 
+----------------------------------------------
 
 run from the folder where jpg/png located
 
