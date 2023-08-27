@@ -16,12 +16,12 @@ for root, dirs, files in os.walk(current_directory):
         file_info[root].append((filename, file_extension))
 
 # 3. Создаем папку 'dubsmover' в текущей директории, если она не существует.
-dubsmover_directory = os.path.join(current_directory, 'dubsmover')
+dubsmover_directory = os.path.join(current_directory, 'avifmover')
 if not os.path.exists(dubsmover_directory):
     os.makedirs(dubsmover_directory)
 
 # 4. Инициализируем логгер и настраиваем его для записи в файл log.log.
-log_filename = os.path.join(current_directory, 'dubsmover.log')
+log_filename = os.path.join(current_directory, 'avifmover.log')
 logging.basicConfig(filename=log_filename, level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
