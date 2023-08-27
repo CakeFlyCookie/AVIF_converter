@@ -7,4 +7,4 @@ encoder_v2 - all jpg/png to avif in current directory and subdirectories
 
 mover - moves jpg/png in new folder if avif's exists
 
-*writed by chatgpt*
+*written by chatgpt*
