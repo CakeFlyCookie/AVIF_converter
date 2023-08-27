@@ -1,4 +1,14 @@
 # AVIF_converter
+
+simple avif converter
+
+
+pip install pillow pillow_avif tqdm
+
+
+run from the folder where jpg/png located
+
+
 decoder - avif to jpg/png
 
 encoder_v1 - all jpg/png to avif in current directory
